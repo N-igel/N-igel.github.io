@@ -1,69 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- =========================
+         BASIC META INFORMATION
+    ========================== -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nigel | Portfolio</title>
-    <style>
-        body{
-            margin:0;
-            font-family:Arial,sans-serif;
-            background:#0f172a;
-            color:white;
-            text-align:center;
-        }
 
-        .container{
-            padding:80px 20px;
-        }
+    <title>Nigel Takunda Mujiche | Portfolio</title>
 
-        h1{
-            font-size:50px;
-            margin-bottom:10px;
-        }
+    <meta name="description" content="Official portfolio of Nigel Takunda Mujiche - Business student, aspiring finance professional, entrepreneur, and web developer.">
 
-        h2{
-            color:#38bdf8;
-            margin-top:0;
-        }
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        p{
-            max-width:700px;
-            margin:auto;
-            line-height:1.7;
-            font-size:18px;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        .btn{
-            display:inline-block;
-            margin-top:30px;
-            padding:15px 30px;
-            background:#38bdf8;
-            color:white;
-            text-decoration:none;
-            border-radius:8px;
-            font-weight:bold;
-        }
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-        .btn:hover{
-            background:#0ea5e9;
-        }
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Hi, I'm Nigel 👋</h1>
-    <h2>Welcome to My Portfolio</h2>
+<!-- =========================
+     LOADER
+========================== -->
+
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Nigel<span>.</span>
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#experience">Experience</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- =========================
+     HERO
+========================== -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Nigel Takunda Mujiche</h1>
+
+        <h2>
+            Business Student |
+            Entrepreneur |
+            Future Finance Professional
+        </h2>
+
+        <p>
+            Passionate about business, finance, technology,
+            and building solutions that create real-world impact.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="assets/Nigel_Mujiche_CV.pdf" class="btn">
+                Download CV
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/profile.jpg" alt="Nigel Mujiche">
+
+    </div>
+
+</section>
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section id="about">
+
+    <div class="section-title">
+
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <p>
+
+            I am Nigel Takunda Mujiche, a Bachelor of Commerce student
+            passionate about finance, entrepreneurship,
+            leadership, and technology.
+
+            I enjoy solving business challenges,
+            creating digital solutions,
+            and continuously learning new skills
+            that prepare me for an international career.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     EDUCATION
+========================== -->
+
+<section id="education">
+
+    <div class="section-title">
+
+        <h2>Education</h2>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <h3>Bachelor of Commerce (B.Com)</h3>
+
+            <p>MVN University</p>
+
+            <span>2023 – Present</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     EXPERIENCE
+========================== -->
+
+<section id="experience">
+
+    <div class="section-title">
+
+        <h2>Leadership & Experience</h2>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Course Representative</h3>
+
+            <p>
+                Represented classmates and coordinated communication
+                between students and faculty.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Vice Captain - MVN Wolves</h3>
+
+            <p>
+                Served as Vice Captain of the university basketball team
+                from 2024 to 2026.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     SKILLS
+========================== -->
+
+<section id="skills">
+
+    <div class="section-title">
+
+        <h2>Skills</h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill">Accounting</div>
+
+        <div class="skill">Finance</div>
+
+        <div class="skill">Business Strategy</div>
+
+        <div class="skill">HTML5</div>
+
+        <div class="skill">CSS3</div>
+
+        <div class="skill">JavaScript</div>
+
+        <div class="skill">Git</div>
+
+        <div class="skill">GitHub</div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     PROJECTS
+========================== -->
+
+<section id="projects">
+
+    <div class="section-title">
+
+        <h2>Projects</h2>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+                Responsive portfolio website built using
+                HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>DealYard Hub</h3>
+
+            <p>
+                Business platform connecting India and Zimbabwe.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>Contact Me</h2>
+
+    </div>
+
+    <form>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Email Address">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn">
+
+            Send Message
+
+        </button>
+
+    </form>
+
+</section>
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
 
     <p>
-        This is my personal portfolio website.
-        I'll use it to showcase my skills, projects,
-        experience, and contact information.
+
+        © 2026 Nigel Takunda Mujiche.
+        All Rights Reserved.
+
     </p>
 
-    <a class="btn" href="#">Coming Soon</a>
-</div>
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
